@@ -23,7 +23,7 @@ document.getElementById('form-login').addEventListener('mouseout', e => {
 });
 
 document.querySelector('#form-login').addEventListener('submit', e => {
-    
+
     e.preventDefault();
 
     //console.log('Formulário enviado!');
@@ -32,5 +32,17 @@ document.querySelector('#form-login').addEventListener('submit', e => {
     let password = document.querySelector('#password').value; 
 
     console.log(email, password);
+
+    let json = {
+        email: email, 
+        password: password
+    };
+
+    console.log(json);
+
+    let stringJSON = JSON.stringify(json);
+
+    console.log(stringJSON);
+
 });
 
