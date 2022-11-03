@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -44,6 +47,61 @@ body {
     margin-bottom: 10px;
 }
 
-button {
-    cursor: pointer;
+.content-center input:focus  {
+    border-bottom-color: rgb(64, 64, 241);
 }
+
+.content-center button {
+    background-color: rgb(143, 143, 143);
+    color: #fff;
+}
+
+
+.content-center button:hover {
+    cursor: pointer;
+    background-color: #4bb528;
+}
+
+.content-center button:active {
+    cursor: pointer;
+    background-color: #c1110e;
+}
+
+
+header a {
+    color: #777;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #222;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+header a:focus {
+    color: rgb(235, 242, 37);
+}
+
+
+header a:active {
+    color: rgb(24, 188, 247);
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+footer {
+    font-size: .8em;
+    text-align: center;
+}
+
+

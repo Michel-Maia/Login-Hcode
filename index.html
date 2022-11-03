@@ -23,17 +23,17 @@
             <img src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="homem digitando no laptop"></a>
         </div>
 
-        <form action="/login" method="post">
+        <form action="/login" method="post" id="form-login">
             <div>
-                <input type="email" placeholder="Digite o seu email" required>
+                <input type="email" id="email" placeholder="Digite o seu email" required>
             </div>
 
             <div>
-                <input type="password" placeholder="Digite sua senha" required>
+                <input type="password" id="password" placeholder="Digite sua senha" required>
             </div>
 
             <div>
-                <button>Enviar</button>
+                <button id="btn-submit">Enviar</button>
             </div>
         </form>
     </section>
@@ -41,5 +41,7 @@
     <footer>
         <p>Desenvolvido em aula HTML</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
